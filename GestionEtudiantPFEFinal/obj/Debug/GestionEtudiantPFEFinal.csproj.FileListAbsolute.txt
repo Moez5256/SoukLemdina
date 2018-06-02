@@ -1,0 +1,5 @@
+c:\users\spadmin\documents\visual studio 2013\Projects\GestionEtudiantPFEFinal\GestionEtudiantPFEFinal\obj\Debug\GestionEtudiantPFEFinal.csprojResolveAssemblyReference.cache
+c:\users\spadmin\documents\visual studio 2013\Projects\GestionEtudiantPFEFinal\GestionEtudiantPFEFinal\bin\Debug\GestionEtudiantPFEFinal.dll
+c:\users\spadmin\documents\visual studio 2013\Projects\GestionEtudiantPFEFinal\GestionEtudiantPFEFinal\bin\Debug\GestionEtudiantPFEFinal.pdb
+c:\users\spadmin\documents\visual studio 2013\Projects\GestionEtudiantPFEFinal\GestionEtudiantPFEFinal\obj\Debug\GestionEtudiantPFEFinal.dll
+c:\users\spadmin\documents\visual studio 2013\Projects\GestionEtudiantPFEFinal\GestionEtudiantPFEFinal\obj\Debug\GestionEtudiantPFEFinal.pdb

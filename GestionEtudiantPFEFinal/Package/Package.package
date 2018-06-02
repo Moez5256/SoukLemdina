@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="3b7fcb5f-d25d-4273-a84f-73080591272c" solutionId="3b7fcb5f-d25d-4273-a84f-73080591272c" resetWebServer="false" sharePointProductVersion="15.0" name="GestionEtudiantPFEFinal" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="4d044635-cae7-4113-87e1-c0508c6da66c" />
+  </features>
+</package>

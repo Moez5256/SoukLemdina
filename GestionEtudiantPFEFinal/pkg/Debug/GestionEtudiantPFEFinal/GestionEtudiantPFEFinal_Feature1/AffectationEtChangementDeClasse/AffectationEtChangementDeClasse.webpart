@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="GestionEtudiantPFEFinal.AffectationEtChangementDeClasse.AffectationEtChangementDeClasse, GestionEtudiantPFEFinal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=33326167e471cff8" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">GestionEtudiantPFEFinal - AffectationEtChangementDeClasse</property>
+        <property name="Description" type="string">Mon composant Visual WebPart</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="565a1f8a-ff43-49e8-8bc2-ee0f6de95d7e" Scope="Site" Title="GestionEtudiantPFEFinal Feature1">
+  <ElementManifests>
+    <ElementManifest Location="InscriptionEtudiant\Elements.xml" />
+    <ElementFile Location="InscriptionEtudiant\InscriptionEtudiant.webpart" />
+    <ElementManifest Location="AffectationEtChangementDeClasse\Elements.xml" />
+    <ElementFile Location="AffectationEtChangementDeClasse\AffectationEtChangementDeClasse.webpart" />
+    <ElementManifest Location="ListeClasse\Elements.xml" />
+    <ElementFile Location="ListeClasse\ListeClasse.webpart" />
+    <ElementManifest Location="listeEtudiant\Elements.xml" />
+    <ElementFile Location="listeEtudiant\listeEtudiant.webpart" />
+    <ElementManifest Location="SaisirEntretient\Elements.xml" />
+    <ElementFile Location="SaisirEntretient\SaisirEntretient.webpart" />
+    <ElementManifest Location="AjouterClasse\Elements.xml" />
+    <ElementFile Location="AjouterClasse\AjouterClasse.webpart" />
+    <ElementManifest Location="EtudiantEtrangere\Elements.xml" />
+    <ElementFile Location="EtudiantEtrangere\EtudiantEtrangere.webpart" />
+  </ElementManifests>
+</Feature>

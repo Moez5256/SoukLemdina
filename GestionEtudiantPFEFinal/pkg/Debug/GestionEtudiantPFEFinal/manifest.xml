@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="3b7fcb5f-d25d-4273-a84f-73080591272c" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="GestionEtudiantPFEFinal.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="GestionEtudiantPFEFinal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=33326167e471cff8" Namespace="GestionEtudiantPFEFinal.InscriptionEtudiant" TypeName="*" />
+        <SafeControl Assembly="GestionEtudiantPFEFinal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=33326167e471cff8" Namespace="GestionEtudiantPFEFinal.AffectationEtChangementDeClasse" TypeName="*" />
+        <SafeControl Assembly="GestionEtudiantPFEFinal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=33326167e471cff8" Namespace="GestionEtudiantPFEFinal.ListeClasse" TypeName="*" />
+        <SafeControl Assembly="GestionEtudiantPFEFinal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=33326167e471cff8" Namespace="GestionEtudiantPFEFinal.listeEtudiant" TypeName="*" />
+        <SafeControl Assembly="GestionEtudiantPFEFinal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=33326167e471cff8" Namespace="GestionEtudiantPFEFinal.SaisirEntretient" TypeName="*" />
+        <SafeControl Assembly="GestionEtudiantPFEFinal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=33326167e471cff8" Namespace="GestionEtudiantPFEFinal.AjouterClasse" TypeName="*" />
+        <SafeControl Assembly="GestionEtudiantPFEFinal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=33326167e471cff8" Namespace="GestionEtudiantPFEFinal.EtudiantEtrangere" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="GestionEtudiantPFEFinal_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

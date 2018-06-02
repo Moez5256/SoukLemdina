@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{524EFEDA-C4C7-4BE0-ABEE-BDF7E54C5E15}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GestionEtudiantPFEFinal</RootNamespace>
+    <AssemblyName>GestionEtudiantPFEFinal</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AffectationEtChangementDeClasse\AffectationEtChangementDeClasse.ascx.cs">
+      <DependentUpon>AffectationEtChangementDeClasse.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AffectationEtChangementDeClasse\AffectationEtChangementDeClasse.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AffectationEtChangementDeClasse.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AjouterClasse\AjouterClasse.ascx.cs">
+      <DependentUpon>AjouterClasse.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AjouterClasse\AjouterClasse.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AjouterClasse.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="EtudiantEtrangere\EtudiantEtrangere.ascx.cs">
+      <DependentUpon>EtudiantEtrangere.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="EtudiantEtrangere\EtudiantEtrangere.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EtudiantEtrangere.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="InscriptionEtudiant\InscriptionEtudiant.ascx.cs">
+      <DependentUpon>InscriptionEtudiant.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="InscriptionEtudiant\InscriptionEtudiant.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InscriptionEtudiant.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ListeClasse\ListeClasse.ascx.cs">
+      <DependentUpon>ListeClasse.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ListeClasse\ListeClasse.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListeClasse.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="listeEtudiant\listeEtudiant.ascx.cs">
+      <DependentUpon>listeEtudiant.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="listeEtudiant\listeEtudiant.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>listeEtudiant.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaisirEntretient\SaisirEntretient.ascx.cs">
+      <DependentUpon>SaisirEntretient.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="SaisirEntretient\SaisirEntretient.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SaisirEntretient.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AffectationEtChangementDeClasse\AffectationEtChangementDeClasse.webpart" />
+    <None Include="AffectationEtChangementDeClasse\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ba3b8eab-c132-418f-a430-5548cf5287e3}</SharePointProjectItemId>
+    </None>
+    <None Include="AjouterClasse\AjouterClasse.webpart" />
+    <None Include="AjouterClasse\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c2f2ee0a-140d-43d0-b2bc-7ef932607b2e}</SharePointProjectItemId>
+    </None>
+    <None Include="EtudiantEtrangere\EtudiantEtrangere.webpart" />
+    <None Include="EtudiantEtrangere\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6b78bf27-267b-4a44-9b9f-a67e9b304cd0}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{4d044635-cae7-4113-87e1-c0508c6da66c}</FeatureId>
+    </None>
+    <None Include="InscriptionEtudiant\InscriptionEtudiant.webpart" />
+    <None Include="InscriptionEtudiant\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{66bb54c6-f2fa-48ee-b7c8-1d558f38ed98}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="ListeClasse\ListeClasse.webpart" />
+    <None Include="ListeClasse\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{22f69d31-f373-4e27-ba0b-ffc9e0001d35}</SharePointProjectItemId>
+    </None>
+    <None Include="listeEtudiant\listeEtudiant.webpart" />
+    <None Include="listeEtudiant\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{31fc69cb-2705-4661-8146-d04eebc958bc}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{3b7fcb5f-d25d-4273-a84f-73080591272c}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="SaisirEntretient\SaisirEntretient.webpart" />
+    <None Include="SaisirEntretient\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f6a5fb10-2016-429e-addf-6fe76d3a7686}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="AffectationEtChangementDeClasse\AffectationEtChangementDeClasse.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>AffectationEtChangementDeClasse.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="AffectationEtChangementDeClasse\Elements.xml" />
+    <Content Include="AjouterClasse\AjouterClasse.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>AjouterClasse.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="AjouterClasse\Elements.xml" />
+    <Content Include="EtudiantEtrangere\Elements.xml" />
+    <Content Include="EtudiantEtrangere\EtudiantEtrangere.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>EtudiantEtrangere.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="InscriptionEtudiant\Elements.xml" />
+    <Content Include="InscriptionEtudiant\InscriptionEtudiant.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>InscriptionEtudiant.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="ListeClasse\Elements.xml" />
+    <Content Include="ListeClasse\ListeClasse.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>ListeClasse.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="listeEtudiant\Elements.xml" />
+    <Content Include="listeEtudiant\listeEtudiant.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>listeEtudiant.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="SaisirEntretient\Elements.xml" />
+    <Content Include="SaisirEntretient\SaisirEntretient.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>SaisirEntretient.ascx.g.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>
